@@ -8,7 +8,7 @@ aMAZEing Minds is a 3D quiz maze game where players choose a grade level and sch
 
 - 3D maze gameplay with question-based progression
 - Locked exit that opens after all questions are answered
-- Grade and subject selection (Math, Swedish, English, Natural Science, Social Science, History)
+- Grade and subject selection (Math, Swedish, English, Natural Science, Geography, History)
 - Dynamic question triggers placed throughout the maze
 - Multiple levels with increasing difficulty
 - Works in both desktop web and VR (A-Frame)
@@ -17,7 +17,7 @@ aMAZEing Minds is a 3D quiz maze game where players choose a grade level and sch
 
 ## Getting Started
 
-IInstall dependencies:
+Install dependencies:
 
 ```bash
 npm install
@@ -41,6 +41,7 @@ http://localhost:5173
 - Click “Starta spelet”
 - Move using WASD or arrow keys
 - Look around using the mouse
+- Press Esc to exit camera mode
 - Walk over markers to trigger questions
 - Answer questions to progress
 - Unlock the exit when all questions are completed
@@ -53,11 +54,15 @@ http://localhost:5173
 - Choose your grade level and subject on the start screen
 - Click “Starta spelet”
 - Use your headset to look around
-- Interact with objects using VR controls (controller or gaze depending on device)
+- Look in the direction you want to move
+- Use the joystick/thumbstick to walk in that direction
+- Use VR controllers to select buttons and answers
 - Walk over markers to trigger questions
 - Answer questions to progress
 - Unlock the exit when all questions are completed
-- Find the exit to complete the level --
+- Find the exit to complete the level
+
+---
 
 ## Edit Content
 
